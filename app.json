@@ -1,6 +1,6 @@
 {
   "name": "Platform Event Listener",
-  "description": "Appliication to verify that platform events are being emitted from a SF environment",
+  "description": "Appliication to verify that platform events are being emitted from a SF e",
   "env": {
     "SF_CLIENT_ID": {
       "description": "Consumer key of your Salesforce Connected App",
@@ -17,6 +17,10 @@
     "SF_USER_PASSWORD": {
       "description": "Salesforce password for your integration user",
       "value": "F1sh01l!"
+    },
+    "REDIRECT_URL": {
+      "description": "Salesforce Callback URL for your connected app",
+      "value": "http://localhost:7000/oauth/_callback"
     }
   }
 }
