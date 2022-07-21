@@ -3,20 +3,20 @@
   "description": "Sample application",
   "env": {
     "SF_CLIENT_ID": {
-        "description": "Consumer key of your Salesforce Connected App",
-        "value":""
+      "description": "Consumer key of your Salesforce Connected App",
+      "value": "3MVG9UP4ApgjJiu9PvfEcY8ubdA3XiVFqXLJPQgZBXXeV2Y5wLMzP_mHEzcGDy.GQJXBa4XiOHPmbd2Y.1oE8"
     },
     "SF_CLIENT_SECRET": {
-        "description": "Consumer secret of your Salesforce Connected App",
-        "value":""
+      "description": "Consumer secret of your Salesforce Connected App",
+      "value": "F03BCEF865273FE39A28AD43519D604E37DA7418D2C863A6594B16BF9D4CBB32"
     },
     "SF_USER_NAME": {
-        "description": "Salesforce username for your integration user",
-        "value":""
+      "description": "Salesforce username for your integration user",
+      "value": "itsupport@pilltime.co.uk.titandt"
     },
     "SF_USER_PASSWORD": {
-        "description": "Salesforce password for your integration user",
-        "value":""
+      "description": "Salesforce password for your integration user",
+      "value": "F1sh01l!"
     }
   }
 }
