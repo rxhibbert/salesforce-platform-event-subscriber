@@ -28,18 +28,14 @@ bayeux.on('disconnect', function (clientId) {
 server.listen(PORT, () => console.log(`Express server listening on ${PORT}`));
 
 // Connect to Salesforce
-let SF_CLIENT_ID = process.env.SF_CLIENT_ID;
-let SF_CLIENT_SECRET = process.env.SF_CLIENT_SECRET;
-let SF_USER_NAME = process.env.SF_USER_NAME;
-let SF_USER_PASSWORD = process.env.SF_USER_PASSWORD;
+let SF_CLIENT_ID = "3MVG9UP4ApgjJiu9PvfEcY8ubdA3XiVFqXLJPQgZBXXeV2Y5wLMzP_mHEzcGDy.GQJXBa4XiOHPmbd2Y.1oE8";
+let SF_CLIENT_SECRET = "F03BCEF865273FE39A28AD43519D604E37DA7418D2C863A6594B16BF9D4CBB32"
+let SF_USER_NAME = "itsupport@pilltime.co.uk.titandt"
+let SF_USER_PASSWORD = "F1sh01l!"
 let REDIRECT_URL = process.env.REDIRECT_URL ? process.env.REDIRECT_URL : (process.env.HEROKU_APP_NAME + ".heroukapp.com");
 
-console.log(SF_CLIENT_ID);
-console.log(SF_CLIENT_SECRET);
-console.log(SF_USER_NAME);
-console.log(SF_USER_PASSWORD);
-console.log(REDIRECT_URL);
-console.log(HEROKU_APP_NAME);
+console.log(process.env);
+
 
 let org = nforce.createConnection({
   clientId: SF_CLIENT_ID,

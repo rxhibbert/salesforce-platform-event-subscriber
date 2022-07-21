@@ -17,10 +17,6 @@
     "SF_USER_PASSWORD": {
       "description": "Salesforce password for your integration user",
       "value": "F1sh01l!"
-    },
-    "REDIRECT_URL": {
-      "description": "Salesforce Callback URL for your connected app",
-      "value": "http://localhost:7000/oauth/_callback"
     }
   }
 }
