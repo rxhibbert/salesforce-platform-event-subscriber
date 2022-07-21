@@ -38,7 +38,7 @@ let REDIRECT_URL = "http://localhost:7000/oauth/_callback";
 let org = nforce.createConnection({
   clientId: SF_CLIENT_ID,
   clientSecret: SF_CLIENT_SECRET,
-  environment: "production",
+  environment: "sandbox",
   redirectUri: REDIRECT_URL,
   mode: 'single',
   autoRefresh: true,
