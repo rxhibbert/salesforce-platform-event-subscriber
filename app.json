@@ -1,6 +1,6 @@
 {
-  "name": "Northern Trail Manufacturing",
-  "description": "Sample application",
+  "name": "Platform Event Listener",
+  "description": "Appliication to verify that platform events are being emitted from a SF environment",
   "env": {
     "SF_CLIENT_ID": {
       "description": "Consumer key of your Salesforce Connected App",
