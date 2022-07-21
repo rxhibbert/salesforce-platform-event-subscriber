@@ -31,7 +31,7 @@ server.listen(PORT, () => console.log(`Express server listening on ${PORT}`));
 let SF_CLIENT_ID = "3MVG9UP4ApgjJiu9PvfEcY8ubdA3XiVFqXLJPQgZBXXeV2Y5wLMzP_mHEzcGDy.GQJXBa4XiOHPmbd2Y.1oE8";
 let SF_CLIENT_SECRET = "F03BCEF865273FE39A28AD43519D604E37DA7418D2C863A6594B16BF9D4CBB32";
 let SF_USER_NAME = "itsupport@pilltime.co.uk.titandt";
-let SF_USER_PASSWORD = "F1sh01l!";
+let SF_USER_PASSWORD = "F1sh01l!mHMtRXWZmMDRETBOjWC9iIhc";
 let REDIRECT_URL = "http://localhost:7000/oauth/_callback";
 
 
